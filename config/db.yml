@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  host: localhost
+  user: mysqluser
+  password: mojiti
+  database: custom_server_dev
+  max_connections: 10
+
+production:
+  adapter: mysql2
+  host: localhost
+  user: mysqluser
+  password: mojiti
+  database: custom_server_prod
+  max_connections: 10
